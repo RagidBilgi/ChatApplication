@@ -10,7 +10,7 @@ To install the application, all you have to do is clone or download the source c
 
 ## Creating The Database
 
-Using the following script, you can create the database automatically. Please change $serername, $username, and $password to your details. 
+Using the following script, you can create the database automatically. Please change **$servername, $username, and $password** to your details. 
 
 <details><summary>Show Script Code</summary>
 <p>
