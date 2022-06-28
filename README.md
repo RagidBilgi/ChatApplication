@@ -121,4 +121,4 @@ This application uses the PHPMailer library to send emails with SMTP, from the h
 
 To improve the user experience, you can add file sharing functionality to your application by using an open source third-party application called Kjeela. Kjeela can be installed inside the folder of chat application or as subdomain, we recommend the latter to avoid server config issues. For installation steps, please refer to [Kjeela on GitHub.](https://github.com/kleeja-official/kleeja)
 
-Adding File Sharing is a completely optional step and required for the Chat Application to work. Once Kjeela is installed, please edit the link on **/chat/chatroom.php at line X** and **/chat/privatechat.php at line X** with the correct link to the service. 
+Adding File Sharing is a completely optional step and not required for the Chat Application to work. Once Kjeela is installed, please edit the link on **/chat/chatroom.php at line X** and **/chat/privatechat.php at line X** with the correct link to the service. 
