@@ -101,7 +101,7 @@ Using **/database/Database_connection.php**, you can write your MySQL details to
 
 ## Running the Server and Changing Port
 
-The application runs on **55** port by default. If you are planning to use another port, please change the port number in **/chat/bin/server.php at line 38** to the port you want. To run the server, you need to run the following command in your terminal “php server.php” from the correct directory. If you are not running on localhost, you need to change the IP and Port to your current server in **/chat/chatroom.php at line 213** and in **/chat/privatechat.php at line 180**.
+The application runs on **55** port by default. If you are planning to use another port, please change the port number in **/chat/bin/server.php at line 38** to the port you want. To run the server, you need to run the following command in your terminal “php server.php” from the correct directory. If you are not running on localhost, you need to change the IP and Port to your current server in **/chat/chatroom.php at line 213** and in **/chat/privatechat.php at line 217**.
 
 The default version uses SSL Encryption for enhanced security. To use it, you need a valid SSL Certificate. If you don’t have one, you can get a certificate for free from Let’s Encrypt. Once SSL is added to your domain, please add the following line in your Apache config: **“ProxyPass /wss2/ ws://yourdomain:port/”** to enable SSL Encryption in the application.
 
