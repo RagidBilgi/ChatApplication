@@ -97,7 +97,7 @@ Using the following script, you can create the database automatically. Please ch
 
 To increase the security of the application in case of a breach from the client side, the database connection details (username, password, database name) and the AES Decryption Key have been stored in another folder. We advise you to NOT make the folder ‘database’ accessible through the internet and keep it on the server only.  It is recommended to create a new user specific to the application and give read permission to /database folder to this user only to increase the security of the application. However, this is a completely optional step. 
 
-Using **/database/Database_connection.php**, you can write your MySQL details to give the application access to the database. For the AES Decryption, please change the 256-bit key to a new key, DO NOT use the default key as it is available publicly to everyone and you can put your data at risk.
+Using **/database/Database_connection.php**, you can write your MySQL details to give the application access to the database. For the AES Decryption, please change the 256-bit key to a new key, DO NOT use the default key as it is available publicly to everyone and you can put your data at risk. Please change the paths for the Database_connection.php and aes.php files in the chat/database folder for all the files there. 
 
 ## Running the Server and Changing Port
 
