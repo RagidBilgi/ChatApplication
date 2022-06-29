@@ -1,0 +1,67 @@
+.maintable{
+    height: 100%;
+    width: 100%
+}
+
+.logintable{
+    border: 2px solid;
+    border-radius: 7px;
+    height: 450px;
+    width: 400;
+   
+}
+
+.loginline{
+    border-bottom: black solid;
+    background-color: #bfbfbf;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+  
+}
+
+.inputtext{
+    font-size: 16px;
+    height: 35px;
+    background-color: #f2f2f2;
+    border-radius: 7px;
+}
+
+.loginbtn{
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.registerbtn{
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.logintext{
+    font-size: 20px;
+    vertical-align: bottom;
+    font-family: "Segoe UI";
+}
+
+h1{
+    font-family: "Segoe UI";
+    font-size: 40px;
+}
+
+.credits{
+    height: 100px;
+    text-align: left;
+    font-family: "Segoe UI";
+    font-size: 12px;   
+}
+
+.normalfont{
+    font-family: "Segoe UI";
+}

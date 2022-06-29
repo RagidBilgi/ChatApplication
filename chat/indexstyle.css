@@ -1,0 +1,88 @@
+body {
+  background-color: #fbf8be;
+}
+
+.navbar {
+  background-color: #234e70;
+  overflow: hidden;
+}
+.navbar .loginbtn, .navbar .registerbtn {
+  border: none;
+  background-color: #234e70;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.navbar .registerbtn:hover, .navbar .loginbtn:hover {
+  color: #fbf8be;
+}
+.navbar .navtitle {
+  color: #fff;
+  padding: 0px 15px;
+  font-size: 36px;
+}
+
+.registerlogin {
+  background-color: #fdfbdb;
+  margin: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 650px;
+  border-spacing: 30px;
+  border-radius: 6px;
+}
+.registerlogin th, .registerlogin td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.registerlogin .texts {
+  font-size: 22px;
+}
+.registerlogin input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  background-color: #fdfbdb;
+  font-size: 20px;
+}
+.registerlogin input[type=password] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  background-color: #fdfbdb;
+  font-size: 20px;
+}
+.registerlogin .loginbutt, .registerlogin .registerbutt {
+  padding: 15px 75px;
+  background-color: #446985;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.registerlogin .loginbutt:hover,
+.registerlogin .registerbutt:hover {
+  background-color: #446985;
+  opacity: 1;
+}
+.registerlogin .welcome-title {
+  font-size: 28px;
+  color: #ffffff;
+}
+.registerlogin .edit-header {
+  background-color: #446985;
+}

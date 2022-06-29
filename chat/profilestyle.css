@@ -1,0 +1,79 @@
+body {
+  background-color: #fbf8be;
+}
+
+.navbar {
+  background-color: #234e70;
+  overflow: hidden;
+}
+.navbar .navtitle {
+  color: #fff;
+  padding: 0px 15px;
+  font-size: 36px;
+}
+
+.profiletable {
+  background-color: #fdfbdb;
+  margin: 50px;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 750px;
+  border-spacing: 30px;
+}
+.profiletable th, .profiletable td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.profiletable .pfptext {
+  font-size: 28px;
+  color: white;
+}
+.profiletable .pfptext a {
+  color: #fbf8be;
+}
+.profiletable .pfptext a:hover {
+  color: #c5ceaa;
+}
+.profiletable .profilerow {
+  background-color: #446985;
+}
+.profiletable .editbutt {
+  padding: 15px 75px;
+  background-color: #446985;
+  border: none;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.profiletable .editbutt:hover {
+  background-color: #446985;
+  opacity: 1;
+}
+.profiletable .texts {
+  font-size: 22px;
+}
+.profiletable input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  font-size: 20px;
+  background-color: #fdfbdb;
+}
+.profiletable input[type=password] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  font-size: 20px;
+  background-color: #fdfbdb;
+}

@@ -1,0 +1,56 @@
+[01-Jun-2022 22:12:48 Europe/Berlin] PHP Warning:  fopen(/var/www/ragidhallak.com/html/wordpress/chat/src/test.txt): Failed to open stream: No such file or directory in N:\XAMPP\htdocs\chat\src\Chat.php on line 28
+[01-Jun-2022 22:12:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in N:\XAMPP\htdocs\chat\src\Chat.php:29
+Stack trace:
+#0 N:\XAMPP\htdocs\chat\src\Chat.php(29): fwrite(false, Object(Ratchet\WebSocket\WsConnection))
+#1 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php(142): MyApp\Chat->onOpen(Object(Ratchet\WebSocket\WsConnection))
+#2 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php(51): Ratchet\WebSocket\WsServer->onOpen(Object(Ratchet\Server\IoConnection), Object(GuzzleHttp\Psr7\Request))
+#3 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(112): Ratchet\Http\HttpServer->onMessage(Object(Ratchet\Server\IoConnection), 'GET / HTTP/1.1\r...')
+#4 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(95): Ratchet\Server\IoServer->handleData('GET / HTTP/1.1\r...', Object(React\Socket\Connection))
+#5 N:\XAMPP\htdocs\chat\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php(123): Ratchet\Server\IoServer->Ratchet\Server\{closure}('GET / HTTP/1.1\r...')
+#6 N:\XAMPP\htdocs\chat\vendor\react\stream\src\Util.php(71): Evenement\EventEmitter->emit('data', Array)
+#7 N:\XAMPP\htdocs\chat\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php(123): React\Stream\Util::React\Stream\{closure}('GET / HTTP/1.1\r...')
+#8 N:\XAMPP\htdocs\chat\vendor\react\stream\src\DuplexResourceStream.php(193): Evenement\EventEmitter->emit('data', Array)
+#9 N:\XAMPP\htdocs\chat\vendor\react\event-loop\src\StreamSelectLoop.php(245): React\Stream\DuplexResourceStream->handleData(Resource id #52)
+#10 N:\XAMPP\htdocs\chat\vendor\react\event-loop\src\StreamSelectLoop.php(212): React\EventLoop\StreamSelectLoop->waitForStreamActivity(NULL)
+#11 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(74): React\EventLoop\StreamSelectLoop->run()
+#12 N:\XAMPP\htdocs\chat\bin\server.php(30): Ratchet\Server\IoServer->run()
+#13 {main}
+  thrown in N:\XAMPP\htdocs\chat\src\Chat.php on line 29
+[01-Jun-2022 22:13:04 Europe/Berlin] PHP Warning:  fopen(/var/www/ragidhallak.com/html/wordpress/chat/src/test.txt): Failed to open stream: No such file or directory in N:\XAMPP\htdocs\chat\src\Chat.php on line 28
+[01-Jun-2022 22:13:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in N:\XAMPP\htdocs\chat\src\Chat.php:29
+Stack trace:
+#0 N:\XAMPP\htdocs\chat\src\Chat.php(29): fwrite(false, Object(Ratchet\WebSocket\WsConnection))
+#1 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php(142): MyApp\Chat->onOpen(Object(Ratchet\WebSocket\WsConnection))
+#2 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php(51): Ratchet\WebSocket\WsServer->onOpen(Object(Ratchet\Server\IoConnection), Object(GuzzleHttp\Psr7\Request))
+#3 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(112): Ratchet\Http\HttpServer->onMessage(Object(Ratchet\Server\IoConnection), 'GET / HTTP/1.1\r...')
+#4 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(95): Ratchet\Server\IoServer->handleData('GET / HTTP/1.1\r...', Object(React\Socket\Connection))
+#5 N:\XAMPP\htdocs\chat\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php(123): Ratchet\Server\IoServer->Ratchet\Server\{closure}('GET / HTTP/1.1\r...')
+#6 N:\XAMPP\htdocs\chat\vendor\react\stream\src\Util.php(71): Evenement\EventEmitter->emit('data', Array)
+#7 N:\XAMPP\htdocs\chat\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php(123): React\Stream\Util::React\Stream\{closure}('GET / HTTP/1.1\r...')
+#8 N:\XAMPP\htdocs\chat\vendor\react\stream\src\DuplexResourceStream.php(193): Evenement\EventEmitter->emit('data', Array)
+#9 N:\XAMPP\htdocs\chat\vendor\react\event-loop\src\StreamSelectLoop.php(245): React\Stream\DuplexResourceStream->handleData(Resource id #52)
+#10 N:\XAMPP\htdocs\chat\vendor\react\event-loop\src\StreamSelectLoop.php(212): React\EventLoop\StreamSelectLoop->waitForStreamActivity(NULL)
+#11 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(74): React\EventLoop\StreamSelectLoop->run()
+#12 N:\XAMPP\htdocs\chat\bin\server.php(30): Ratchet\Server\IoServer->run()
+#13 {main}
+  thrown in N:\XAMPP\htdocs\chat\src\Chat.php on line 29
+[01-Jun-2022 22:19:20 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #2 ($data) must be of type string, Ratchet\WebSocket\WsConnection given in N:\XAMPP\htdocs\chat\src\Chat.php:29
+Stack trace:
+#0 N:\XAMPP\htdocs\chat\src\Chat.php(29): fwrite(Resource id #83, Object(Ratchet\WebSocket\WsConnection))
+#1 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php(142): MyApp\Chat->onOpen(Object(Ratchet\WebSocket\WsConnection))
+#2 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php(51): Ratchet\WebSocket\WsServer->onOpen(Object(Ratchet\Server\IoConnection), Object(GuzzleHttp\Psr7\Request))
+#3 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(112): Ratchet\Http\HttpServer->onMessage(Object(Ratchet\Server\IoConnection), 'GET / HTTP/1.1\r...')
+#4 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(95): Ratchet\Server\IoServer->handleData('GET / HTTP/1.1\r...', Object(React\Socket\Connection))
+#5 N:\XAMPP\htdocs\chat\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php(123): Ratchet\Server\IoServer->Ratchet\Server\{closure}('GET / HTTP/1.1\r...')
+#6 N:\XAMPP\htdocs\chat\vendor\react\stream\src\Util.php(71): Evenement\EventEmitter->emit('data', Array)
+#7 N:\XAMPP\htdocs\chat\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php(123): React\Stream\Util::React\Stream\{closure}('GET / HTTP/1.1\r...')
+#8 N:\XAMPP\htdocs\chat\vendor\react\stream\src\DuplexResourceStream.php(193): Evenement\EventEmitter->emit('data', Array)
+#9 N:\XAMPP\htdocs\chat\vendor\react\event-loop\src\StreamSelectLoop.php(245): React\Stream\DuplexResourceStream->handleData(Resource id #52)
+#10 N:\XAMPP\htdocs\chat\vendor\react\event-loop\src\StreamSelectLoop.php(212): React\EventLoop\StreamSelectLoop->waitForStreamActivity(NULL)
+#11 N:\XAMPP\htdocs\chat\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(74): React\EventLoop\StreamSelectLoop->run()
+#12 N:\XAMPP\htdocs\chat\bin\server.php(30): Ratchet\Server\IoServer->run()
+#13 {main}
+  thrown in N:\XAMPP\htdocs\chat\src\Chat.php on line 29
+[01-Jun-2022 22:22:16 Europe/Berlin] PHP Deprecated:  Return type of Ratchet\RFC6455\Messaging\Message::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in N:\XAMPP\htdocs\chat\vendor\ratchet\rfc6455\src\Messaging\Message.php on line 20
+[01-Jun-2022 22:22:16 Europe/Berlin] PHP Deprecated:  Return type of Ratchet\RFC6455\Messaging\Message::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in N:\XAMPP\htdocs\chat\vendor\ratchet\rfc6455\src\Messaging\Message.php on line 27
+[01-Jun-2022 22:26:17 Europe/Berlin] PHP Warning:  Undefined array key "command" in N:\XAMPP\htdocs\chat\src\Chat.php on line 67
